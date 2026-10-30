@@ -127,7 +127,7 @@ En esta muestra, los equipos locales presentan un porcentaje de victorias superi
 
 La posesión media varía entre las formaciones analizadas. Estas diferencias también pueden depender de la identidad y el estilo de los equipos, la calidad de los rivales y el estado del marcador. Las formaciones con pocas apariciones requieren especial cautela.
 
-## Aplicación interactiva con Streamlit
+## ⚽ Aplicación interactiva con Streamlit
 
 Como ampliación del análisis exploratorio de datos (EDA), se ha desarrollado una aplicación interactiva utilizando **Streamlit**, que permite visualizar y explorar los datos del Mundial de Fútbol 2026 de una forma dinámica.
 
