@@ -127,6 +127,23 @@ En esta muestra, los equipos locales presentan un porcentaje de victorias superi
 
 La posesión media varía entre las formaciones analizadas. Estas diferencias también pueden depender de la identidad y el estilo de los equipos, la calidad de los rivales y el estado del marcador. Las formaciones con pocas apariciones requieren especial cautela.
 
+## Aplicación interactiva con Streamlit
+
+Como ampliación del análisis exploratorio de datos (EDA), se ha desarrollado una aplicación interactiva utilizando **Streamlit**, que permite visualizar y explorar los datos del Mundial de Fútbol 2026 de una forma dinámica.
+
+El objetivo es transformar los resultados del análisis en un dashboard interactivo, facilitando la consulta de estadísticas, comparativas y patrones de comportamiento de los equipos.
+
+### Funcionalidades del dashboard
+
+La aplicación está organizada en diferentes secciones:
+
+- **Resumen general:** indicadores principales, distribución de resultados y estadísticas generales.
+- **Análisis de formaciones:** comparación de sistemas tácticos y porcentajes de victorias.
+- **Posesión:** relación entre posesión del balón, goles y resultados.
+- **Producción ofensiva:** análisis de tiros totales, tiros a puerta y correlaciones.
+- **Local vs visitante:** comparación del rendimiento según la condición del equipo.
+- **Explorador de partidos:** consulta de encuentros, marcadores y estadísticas individuales.
+
 ## 🧰 Herramientas
 
 - **Python** para preparar y analizar los datos.
@@ -135,6 +152,7 @@ La posesión media varía entre las formaciones analizadas. Estas diferencias ta
 - **Jupyter Notebook** para documentar y ejecutar el análisis.
 - **Git y GitHub** para control de versiones y publicación.
 - **Kaggle** como fuente del dataset.
+- **Streamlit** para dashboar interactivo.
 
 ## 📁 Estructura del proyecto
 
@@ -148,6 +166,9 @@ EDA-Mundial-2026/
 │   └── EDA_Mundial_2026.ipynb
 ├── informes/
 │   └── Informe_Ejecutivo_EDA_Mundial_Futbol_2026.pdf
+├── Streamlit/
+│   ├── app.py
+│   └── requirements.txt
 ├── README.md
 └── requirements.txt
 ```
