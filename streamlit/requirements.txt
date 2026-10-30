@@ -1,0 +1,16 @@
+
+# Análisis y manipulación de datos
+pandas
+numpy
+
+# Visualización de datos
+matplotlib
+seaborn
+plotly
+
+# Entorno de análisis
+jupyter
+ipykernel
+
+# Dashboard interactivo
+streamlit
